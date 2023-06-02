@@ -36,3 +36,9 @@ print(fruits)  # Output: ['apple', 'cherry', 'dates']
 # A new list with each item in fruits titlecased
 fruits_in_caps = [fruit.title() for fruit in fruits]
 print(fruits_in_caps)  # Output: ['Apple', 'Cherry', 'Dates']
+
+fruits.clear()
+print(fruits)  # Output: []
+
+del fruits
+# print(fruits)  # Output: NameError: name 'fruits' is not defined
