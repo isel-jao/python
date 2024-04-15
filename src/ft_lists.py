@@ -4,9 +4,14 @@ fruits = ['apple', 'banana', 'cherry', 'dates']
 
 print(fruits)  # Output: ['apple', 'banana', 'cherry', 'dates']
 print(len(fruits))  # Output: 4
-fruits.append('elderberry')
 
+# Iterating over a list
+for (x in fruits)
+    print(x)
+
+fruits.append('elderberry')
 print(fruits)  # Output: ['apple', 'banana', 'cherry', 'dates', 'elderberry']
+
 print(fruits[0])  # Output: apple
 print(fruits[-1])  # Output: elderberry
 print(fruits[1:3])  # Output: ['banana', 'cherry']

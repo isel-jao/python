@@ -1,7 +1,7 @@
 import math
 import random
 
-print("workin with numbers")
+print("working with numbers")
 
 my_int = 6
 print(my_int, type(my_int))  # Output: 6 <class 'int'>
@@ -26,7 +26,6 @@ print(complex(c))  # Output: (1+0j)
 
 
 # Mathematical Functions:
-
 print(math.pi)  # Output: 3.141592653589793
 print(math.e)  # Output: 2.718281828459045
 print(math.inf)  # Output: inf
@@ -53,11 +52,8 @@ print(math.degrees(1.0471975511965976))  # Output: 59.99999999999999
 print(math.radians(59.99999999999999))  # Output: 1.0471975511965976
 
 # Random Number Functions:
-
 print(random.random())  # Return a random number between 0 and 1
-
 print(random.randint(10, 20))  # Return a random number between a given range
-
 print(random.choice([1, 2, 3, 4, 5]))  # Choose a random element from a list
 
 # Shuffle a list
