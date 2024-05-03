@@ -72,6 +72,16 @@ print(str6.endswith('o'))  # Output: True
 str7 = "Hello"
 print(str7.find('e'))  # Output: 1
 
+# Substring 
+str8 = "Hello, World!"
+print(str8[0:5])  # Output: Hello
+print(str8[7:])  # Output: World!
+print(str8[:5])  # Output: Hello
+
+# Reverse a string
+str9 = "Hello, World!"
+print(str9[::-1])  # Output: !dlroW ,olleH
+
 
 ############### String Formatting ###############
 # Using .format() method
